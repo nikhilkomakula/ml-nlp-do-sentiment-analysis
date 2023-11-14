@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: nikhilkomakula/ml-nlp-sentiment-analysis
+    container_name: ml-nlp-sentiment-analysis
+    ports:
+      - 3000:3000

@@ -1,0 +1,9 @@
+
+.DS_Store
+.venv
+archives
+__pycache__
+
+data/training.1600000.processed.noemoticon.csv
+models/sa_model.keras
+models/tokenizer.pkl
